@@ -17,7 +17,7 @@ dotenv.load_dotenv(_project_root / ".env", override=True)
 mastery_toolset = tools.get_mastery_mcp_toolset()
 
 root_agent = LlmAgent(
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     name="maestro_insight_agent",
     instruction="""
 You are **Maestro Insight Agent**, an AI-powered teaching assistant designed to help educators deliver personalized student support at scale.
