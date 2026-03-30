@@ -1,0 +1,6 @@
+google-adk
+fastapi
+uvicorn[standard]
+httpx
+mcp[cli]
+python-dotenv
