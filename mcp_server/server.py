@@ -19,7 +19,7 @@ mcp = FastMCP(
         "difficulty scores, and identify struggling students."
     ),
     host="0.0.0.0",
-    port=8001,
+    port=int(os.environ.get("PORT", 8080)),
 )
 
 # Base URL for the Student Mastery REST API
